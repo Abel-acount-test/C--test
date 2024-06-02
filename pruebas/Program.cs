@@ -82,7 +82,7 @@ class Program
         //1,2,
     }
 
-    static void generarTerreno(int radio)
+    static void generarTerreno(int radio, Vector3 posicionActual=new Vector3(), int lado=32)
     {
         int diametro=2*radio;
         int cont = 1;
@@ -106,7 +106,24 @@ class Program
                 cont++;
             }
             contadorIntervalo++;
-            Console.WriteLine(dir.ToString()+"   =>"+contadorIntervalo+"-"+radioIntervalo);
+            Console.WriteLine(dir+"("+posicionActual+")"+"  =>"+contadorIntervalo+"-"+radioIntervalo);
+
+            switch (dir)
+            {
+                case "^":
+                    posicionActual.X -= lado;
+                    break;
+                case "v":
+                    posicionActual.X += lado;
+                    break;
+                case "<":
+                    posicionActual.Z -= lado;
+                    break;
+                case ">":
+                    posicionActual.Z += lado;
+                    break;
+            }
+            
             if (contadorIntervalo%radioIntervalo==0 )
             {
                 if(dir=="^" && bandera){dir="<"; bandera=false;}
@@ -118,6 +135,5 @@ class Program
                 contadorIntervalo = 0;
             }
         }
-        //Console.WriteLine(dir);
     }
 }
