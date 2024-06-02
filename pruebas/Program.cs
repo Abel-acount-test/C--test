@@ -88,6 +88,7 @@ class Program
         int cont = 1;
         int contadorIntervalo=0;
         int radioIntervalo = 1;
+        int cantidadVueltas=0;
         string dir = "^";
         bool bandera = true;
         
@@ -101,6 +102,9 @@ class Program
                 if (cont % 2 == 0)
                 {
                     radioIntervalo+=2;
+                    cantidadVueltas++;
+                    posicionActual.X = lado*cantidadVueltas;
+                    posicionActual.Z = lado*cantidadVueltas;
                     Console.WriteLine("---");
                 }
                 cont++;
