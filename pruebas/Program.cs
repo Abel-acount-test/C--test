@@ -86,6 +86,10 @@ class Program
     {
         int diametro=2*radio;
         int cont = 1;
+        int contadorIntervalo=0;
+        int radioIntervalo = 1;
+        string dir = "^";
+        bool bandera = true;
         
         //genera una matriz
         for (int i = 0; i < diametro*diametro; i++)
@@ -96,11 +100,23 @@ class Program
                 //solo los pares
                 if (cont % 2 == 0)
                 {
+                    radioIntervalo+=2;
                     Console.WriteLine("---");
                 }
                 cont++;
             }
-            Console.WriteLine(i);
+            contadorIntervalo++;
+            Console.WriteLine(dir.ToString()+"   =>"+contadorIntervalo+"-"+radioIntervalo);
+            if (contadorIntervalo%radioIntervalo==0 )
+            {
+                if(dir=="^" && bandera){dir="<"; bandera=false;}
+                if(dir=="<" && bandera){dir="v"; bandera=false;}
+                if(dir=="v" && bandera){dir=">"; bandera=false;}
+                if(dir==">" && bandera){dir="^"; bandera=false;}
+
+                bandera = true;
+                contadorIntervalo = 0;
+            }
         }
         //Console.WriteLine(dir);
     }
