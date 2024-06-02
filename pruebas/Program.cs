@@ -94,9 +94,10 @@ class Program
             if (i >= cont * cont)
             {
                 //solo los pares
-                
+                if (cont % 2 == 0)
+                {
                     Console.WriteLine("---");
-                
+                }
                 cont++;
             }
             Console.WriteLine(i);
