@@ -1,0 +1,14 @@
+C:\Users\Abel1234\Documents\C#\pruebas\pruebas\bin\Debug\net7.0\pruebas.exe
+C:\Users\Abel1234\Documents\C#\pruebas\pruebas\bin\Debug\net7.0\pruebas.deps.json
+C:\Users\Abel1234\Documents\C#\pruebas\pruebas\bin\Debug\net7.0\pruebas.runtimeconfig.json
+C:\Users\Abel1234\Documents\C#\pruebas\pruebas\bin\Debug\net7.0\pruebas.dll
+C:\Users\Abel1234\Documents\C#\pruebas\pruebas\bin\Debug\net7.0\pruebas.pdb
+C:\Users\Abel1234\Documents\C#\pruebas\pruebas\obj\Debug\net7.0\pruebas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Abel1234\Documents\C#\pruebas\pruebas\obj\Debug\net7.0\pruebas.AssemblyInfoInputs.cache
+C:\Users\Abel1234\Documents\C#\pruebas\pruebas\obj\Debug\net7.0\pruebas.AssemblyInfo.cs
+C:\Users\Abel1234\Documents\C#\pruebas\pruebas\obj\Debug\net7.0\pruebas.csproj.CoreCompileInputs.cache
+C:\Users\Abel1234\Documents\C#\pruebas\pruebas\obj\Debug\net7.0\pruebas.dll
+C:\Users\Abel1234\Documents\C#\pruebas\pruebas\obj\Debug\net7.0\refint\pruebas.dll
+C:\Users\Abel1234\Documents\C#\pruebas\pruebas\obj\Debug\net7.0\pruebas.pdb
+C:\Users\Abel1234\Documents\C#\pruebas\pruebas\obj\Debug\net7.0\pruebas.genruntimeconfig.cache
+C:\Users\Abel1234\Documents\C#\pruebas\pruebas\obj\Debug\net7.0\ref\pruebas.dll
