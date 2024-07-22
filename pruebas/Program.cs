@@ -4,11 +4,12 @@ using System.Security.AccessControl;
 
 class Program
 {
-    static void Main(string[] args)
+    /*static void Main(string[] args)
     {
         //controlTiempo(3, 30);
-        generarTerreno(3);
-    }
+        //generarTerreno(3);
+        calculateDistance(new Vector2(2,2), new Vector2(4,3));
+    }*/
     
     //CalcularAngulo(new Vector2(0.16f,0.65f), new Vector2(0, 0));
     //return angle (0,0) (3,4) return 37ª
@@ -139,5 +140,12 @@ class Program
                 contadorIntervalo = 0;
             }
         }
+    }
+
+    static void calculateDistance(Vector2 point1, Vector2 point2)
+    {
+        double temporal=Math.Pow((point2.X-point1.X), 2)+Math.Pow((point2.Y-point1.Y), 2);
+        double distance = Math.Sqrt(temporal);
+        Console.WriteLine(distance);
     }
 }
